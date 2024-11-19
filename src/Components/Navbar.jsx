@@ -16,6 +16,7 @@ const Navbar = () => {
   return (
     <>
       <Offer />
+      <h1>navbar</h1>
       <div className="navbar_container">
         <Link to="/" className="heading_link">
           <h1 className="tinos-regular tinos-bold tinos-regular-italic tinos-bold-italic">

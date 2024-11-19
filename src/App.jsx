@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Components/Navbar";
 // import Navbar from "./Components/Navbar";
 // import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -15,6 +16,7 @@ const App = () => {
       <p>prasad naik</p>
       <p>project e</p>
       <p>React Vite Project</p>
+      <Navbar />
     </>
   );
 };
