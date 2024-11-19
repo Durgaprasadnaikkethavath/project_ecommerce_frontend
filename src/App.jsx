@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
+import { BrowserRouter } from "react-router-dom";
+import ShopContextProvider from "./Context/ShopContext";
 // import Navbar from "./Components/Navbar";
 // import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -16,7 +18,11 @@ const App = () => {
       <p>prasad naik</p>
       <p>project e</p>
       <p>React Vite Project</p>
-      <Navbar />
+      <BrowserRouter>
+        <ShopContextProvider>
+          <Navbar />
+        </ShopContextProvider>
+      </BrowserRouter>
     </>
   );
 };
