@@ -5,6 +5,9 @@ import { assets } from "../assets/assets";
 const ImageCarousel = () => {
   return (
     <>
+      <div>
+        <h1>Images of Carousel</h1>
+      </div>
       <div className="image_section">
         <Carousel loop cols={1} rows={1} autoplay={3000}>
           <Carousel.Item>
