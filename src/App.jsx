@@ -12,6 +12,7 @@ import ImageCarousel from "./Components/ImageCarousel";
 const App = () => {
   return (
     <>
+      <h1>New project e commerce project</h1>
       <h1>React Vite</h1>
       <h1>Project Working</h1>
       <p>durga</p>
@@ -19,12 +20,9 @@ const App = () => {
       <p>prasad naik</p>
       <p>project e</p>
       <p>React Vite Project</p>
-      <BrowserRouter>
-        <ShopContextProvider>
-          <Navbar />
-          <ImageCarousel />
-        </ShopContextProvider>
-      </BrowserRouter>
+
+      <Navbar />
+      <ImageCarousel />
     </>
   );
 };
